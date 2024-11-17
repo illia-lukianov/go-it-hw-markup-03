@@ -58,6 +58,7 @@ img {
         clip-path: inset(50%);
         overflow: hidden;
 }
+
 /* #endregion */
 /* #region Header */
 .header {
@@ -87,7 +88,6 @@ img {
 .nav-list {
         display: flex;
         gap: 40px;
-        padding: 24px 0;
 }
 
 .nav-item {
@@ -99,6 +99,7 @@ img {
         font-size: 16px;
         font-weight: 500;
         letter-spacing: 0.02em;
+        padding: 24px 0;
 }
 
 .contact {
@@ -144,6 +145,9 @@ img {
         text-align: center;
         max-width: 496px;
         height: 120px;
+        display: block;
+        margin:  0 auto 48px;
+
 
 }
 
@@ -156,8 +160,8 @@ img {
         cursor: pointer;
         line-height: 1.5;
         font-family: 'Roboto', sans-serif;
-        margin:48px 163px 0 164px;
         min-width: 169px;
+        margin: auto;
         height: 56px;
         display: block;
         border: none;
@@ -174,10 +178,7 @@ img {
 .studios {}
 
 .studios-container{
-        margin: 120px 0;
-}
-
-.studios-title {
+        padding: 120px 0;
 }
 
 .studios-list {
@@ -185,7 +186,9 @@ img {
         gap: 24px;
 }
 
-.studios-item {}
+.studios-item {
+        width: calc((100% - 72px) / 4);
+}
 
 .studios-subtitle {
         color: rgb(46, 47, 66);
@@ -193,6 +196,7 @@ img {
         font-weight: 500;
         letter-spacing: 0.02em;
         line-height: 1.2;
+        margin-bottom: 8px
 }
 
 .studios-text {
