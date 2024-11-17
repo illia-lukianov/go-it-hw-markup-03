@@ -110,6 +110,7 @@ img {
 .contact-list {
         display: flex;
         gap: 40px;
+        padding: 24px 0;
 }
 
 .contact-item {
@@ -129,7 +130,7 @@ img {
 }
 
 .hero-container {
-        padding: 188px 316px 252px;
+        padding: 188px 0;
         display: flex;
         
 }
@@ -141,7 +142,7 @@ img {
         letter-spacing: 0.02em;
         line-height: 1.07;
         text-align: center;
-        width: 496px;
+        max-width: 496px;
         height: 120px;
 
 }
@@ -156,8 +157,11 @@ img {
         line-height: 1.5;
         font-family: 'Roboto', sans-serif;
         margin:48px 163px 0 164px;
-        width: 169px;
+        min-width: 169px;
         height: 56px;
+        display: block;
+        border: none;
+        border-radius: 4px;
 }
 .hero-button:hover {
         background-color: #404BBF;
