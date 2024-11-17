@@ -24,6 +24,10 @@ ol {
         margin-bottom: 0;
         padding-left: 0;
 }
+
+img {
+        display: block;
+}
 /* #endregion */
 .link:hover {
         color: #404bbf;
@@ -38,8 +42,9 @@ ol {
 }
 .container {
         width: 1440px;
-        /*margin: 0 auto;*/ 
-        padding: 0 156px;
+        margin: 0 auto;
+        padding: 0 15px;
+        width: 1158px
 }
 .visually-hidden {
         position: absolute;
@@ -55,7 +60,9 @@ ol {
 }
 /* #endregion */
 /* #region Header */
-.header {}
+.header {
+        border-bottom: 1px solid #e7e9fc
+}
 
 .header-container{
         display: flex;
@@ -63,13 +70,7 @@ ol {
 
 .header-nav {
         display: flex;
-}
-
-.full-header-logo {
-        width: 115px;
-        height: 24px;
-        display: flex;
-        margin-top: 24px ;
+        align-items: center;
 }
 
 .header-logo {
@@ -80,12 +81,13 @@ ol {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         line-height: 1.17;
+        margin-right: 76px;
 }
 
 .nav-list {
         display: flex;
-        margin: 24px 332px 24px 76px;
         gap: 40px;
+        padding: 24px 0;
 }
 
 .nav-item {
@@ -359,5 +361,6 @@ ol {
         text-transform: uppercase;
         display: flex;
         align-items: center;
+        margin-right: 76px;
 }
 /*#endregion*/
