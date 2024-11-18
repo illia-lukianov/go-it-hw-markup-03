@@ -333,7 +333,7 @@ img {
 .full-footer-logo {
         display: inline-block;
         margin-bottom: 16px;
-        
+        display: inline-block;
 }
 
 .footer-logo {
@@ -344,7 +344,6 @@ img {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         line-height: 1.17;
-        display: inline-block;
 }
 
 .footer-text {
