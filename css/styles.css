@@ -41,7 +41,6 @@ img {
         font-family: 'Roboto', sans-serif;
 }
 .container {
-        width: 1440px;
         margin: 0 auto;
         padding: 0 15px;
         width: 1158px
@@ -67,11 +66,16 @@ img {
 
 .header-container{
         display: flex;
+        align-items: center;
 }
 
 .header-nav {
         display: flex;
         align-items: center;
+}
+
+.full-header-logo{
+        margin-right: 76px;
 }
 
 .header-logo {
@@ -82,12 +86,12 @@ img {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         line-height: 1.17;
-        margin-right: 76px;
 }
 
 .nav-list {
         display: flex;
         gap: 40px;
+
 }
 
 .nav-item {
@@ -99,19 +103,18 @@ img {
         font-size: 16px;
         font-weight: 500;
         letter-spacing: 0.02em;
-        padding: 24px 0;
+        display: block;
 }
 
 .contact {
         font-style:normal;
-        margin: 24px 0;
-        margin-right: auto;
+        margin-left: auto;   
 }
 
 .contact-list {
         display: flex;
         gap: 40px;
-        padding: 24px 0;
+        margin-left: 332px;
 }
 
 .contact-item {
@@ -123,6 +126,8 @@ img {
 .contact-link{
         color:#434455;
         line-height: 1.5;
+        padding: 24px 0;
+        display: block;
 }
 /* #endregion */
 /* #region Hero */
@@ -234,10 +239,9 @@ img {
 
 .contacts-item {
         background-color: #FFFFFF;
-        width: 264px; 
+        width: calc((100% - 72px) / 4);
         border-radius: 0 0 4px 4px;
         box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-        background: var(--white);
 }
 
 .contacts-list-content {
@@ -288,13 +292,10 @@ img {
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 48px;
-        margin-top: 72px;
 }
 
 .portfolio-item {
         width: calc((100% - 24px * 2) / 3);
-        height: 420px;
-        background: var(--white);     
 }        
 
 .portfolio-list-content {       
@@ -320,8 +321,7 @@ img {
         font-weight: 400;
         letter-spacing: 0.02em;
         line-height: 1.5;
-        margin-top: 8px;
-        margin-left: 16px;
+
 }
 /* #endregion*/
 /* #region Footer */
@@ -331,7 +331,6 @@ img {
 }
 
 .full-footer-logo {
-        display: inline-block;
         margin-bottom: 16px;
 }
 
@@ -351,7 +350,6 @@ img {
         font-weight: 400;
         letter-spacing: 0.02em;
         line-height: 1.5;
-        margin-top: 16px;
         max-width: 264px;
 }
 /* #endregion*/
@@ -365,6 +363,6 @@ img {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         align-items: center;
-        margin-right: 76px;
+        display: flex;
 }
 /*#endregion*/
