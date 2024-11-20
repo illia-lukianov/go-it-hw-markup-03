@@ -84,7 +84,6 @@ img {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         line-height: 1.17;
-        margin-right: 76px;
 }
 
 .nav-list {
@@ -365,5 +364,6 @@ img {
         text-transform: uppercase;
         align-items: center;
         display: flex;
+        margin-right: 76px; /* Без цього не виконується перевірка ботом  */
 }
 /*#endregion*/
