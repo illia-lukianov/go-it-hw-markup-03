@@ -74,7 +74,10 @@ img {
         align-items: center;
 }
 
-
+.full-header-logo{
+        margin-right: 76px;
+        display: flex;
+}
 
 .header-logo {
         color: rgb(46, 47, 66);
@@ -363,7 +366,5 @@ img {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         align-items: center;
-        display: flex;
-        margin-right: 76px; /* Без цього не виконується перевірка ботом  */
 }
 /*#endregion*/
